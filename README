@@ -1,25 +1,23 @@
 xwd
 ------------------------------------------
-Xorg X window dumping utility
+X.Org X window dumping utility
 
 Runtime requirements:
-  cygwin-1.5.20-1
-  libX11_6-1.0.0-2
-  libXmuu1-1.0.0-1
+  cygwin-1.5.25-15
+  libX11_6-1.1.5-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.20-1
-  autoconf2.5-2.59-2
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.2.2-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  make-3.80-1
-  pkg-config-0.20-1
-  sed-4.1.5-1
-  xorg-util-macros-1.0.2-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-1
+  binutils-20080624-2
+  cygport-0.4.2-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+  xorg-util-macros-1.1.6-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -30,29 +28,31 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xwd-1.0.1-X-src.tar.bz2
+  unpack xwd-1.0.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xwd-1.0.1-X.cygport all
+  cygport ./xwd-1.0.2-X.cygport all
 
 This will create:
-  /usr/src/xwd-1.0.1-X-src.tar.bz2
-  /usr/src/xwd-1.0.1-X.tar.bz2
+  /usr/src/xwd-1.0.2-X-src.tar.bz2
+  /usr/src/xwd-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/xwd.exe
-  /usr/share/doc/Cygwin/xwd-1.0.1.README
-  /usr/share/doc/xwd-1.0.1/COPYING
-  /usr/share/doc/xwd-1.0.1/ChangeLog
+  /usr/share/doc/xwd-1.0.2/COPYING
+  /usr/share/doc/xwd-1.0.2/ChangeLog
   /usr/share/man/man1/xwd.1.gz
 
 ------------------
 
 Port Notes:
+
+----- version 1.0.2-1 -----
+Version bump.
 
 ----- version 1.0.1-1 -----
 Initial Cygwin release of modular X11R7.0.

@@ -1,4 +1,4 @@
 category: X11
-requires: cygwin libX11_6 libXmuu1
-sdesc: "Xorg X window dumping utility"
-ldesc: "Xorg X window dumping utility"
+requires: cygwin libX11_6
+sdesc: "X.Org X window dumping utility"
+ldesc: "X.Org X window dumping utility"
